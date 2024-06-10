@@ -1,0 +1,74 @@
+.navbar{
+    background-color: lightcoral;
+   padding: 10px;
+    position: relative;
+    z-index: 10;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.menu-wrapper{
+    color: white;
+    font-size: 30px;
+   padding: 8px 16px;
+    border: none;
+   outline: none;
+   cursor: pointer;
+   background-color: lightcoral
+   
+}
+.menu-item{
+   padding: 0 10px;
+    position: relative;
+   top: -5px;
+  
+}
+#wrapper{
+    background-color: lightblue;
+    width: 300px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 80px;
+    position: sticky;
+    top: 100px;
+}
+#it-image{
+    height: 200px;
+    width: 300px;
+    background-color: lightcoral;
+    position: relative;
+   top: 32px;
+   left: 32px;
+}
+#wrapper1{
+    background-color: lightblue;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+   right: 0;
+    top: 0;
+   
+}
+#it-image1{
+    height: 200px;
+    width: 300px;
+    background-color: lightcoral;
+
+}
+#wrapper2{
+    background-color: lightblue;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+   right: 0;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+#it-image2{
+    height: 200px;
+    width: 300px;
+    background-color: lightcoral;
+
+}
